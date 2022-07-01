@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+    <title>Selamat datang di {{title}}</title>
+{% endblock title %}
+    
+
+{% block appcss %}
+    <link rel="stylesheet" href="{% static '/vendor/css/styles.css' %}">
+{% endblock appcss %}
+    
+
+{% block subheader %}
+    <h1>Selamat datang di {{title}}</h1>
+{% endblock subheader %}
+
+
+{% block content %}
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit et vero officia minus velit quisquam nostrum ipsum. Facilis, illo? Odit sint similique aperiam accusantium eum eaque odio, modi omnis sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, consequuntur vitae quam iure obcaecati sapiente ex et vel eum maxime, perspiciatis explicabo ipsam culpa doloremque unde rerum molestias illo fugit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, facilis necessitatibus. Tempora, provident. Voluptatem, id. Doloremque quod accusantium ut repudiandae aliquam, repellendus, rem ratione vero corrupti temporibus adipisci, rerum dolorem.
+    </p>
+{% endblock content %}
+    
+    

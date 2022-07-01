@@ -1,0 +1,6 @@
+#jumbotron{
+    background-image: url('/static/mycontent/img/Header-background.png');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
